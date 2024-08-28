@@ -1,6 +1,6 @@
 # made 28/8/24
 # by francis igoe
-# takes 3 inputs and determines whether none some or all are equal
+# takes 3 inputs and determines whether none, some, or all are equal
 x = input("enter a number")
 y = input("enter a number")
 z = input("enter a number")

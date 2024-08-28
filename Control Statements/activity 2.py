@@ -4,12 +4,9 @@
 x = input("enter a number")
 y = input("enter a number")
 z = input("enter a number")
-if x < y:
-    if y < z:
-        print("Increasing order")
-    else:    
-elif x > y:
-    if y > z:
-        print("Decreasing order")
-    else:
-print("Neither increasing or decreasing order")
+if x < y and y < z:
+    print("Increasing order")
+elif z < y and y < x:
+    print("Decreasing order")
+else:
+    print("Neither increasing or decreasing order")
