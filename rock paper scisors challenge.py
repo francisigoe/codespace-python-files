@@ -32,11 +32,11 @@ while True:
         opponent_score += 1
     # checks if user wants to keep playing with error handling
     keep_playing = input("keep playing? (y/n)")
+    while keep_playing != "y" or keep_playing != "n":
+        keep_playing = input("keep playing? (y/n)")
     if keep_playing == "n":
         break
-    else:
-        while keep_playing != "y":
-            keep_playing = input("keep playing? (y/n)")
+
 # shows final scores
 print("final scores")
 print("user score: ", user_score)
